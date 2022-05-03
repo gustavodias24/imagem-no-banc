@@ -5,7 +5,7 @@ from io import BytesIO
 from pymongo import MongoClient
 from flask import Flask, request, jsonify
 
-#DIRETORIO = "/home/gustavo/PycharmProjects/upandoimage/flask-salvar-arquivos/output"
+#DIRETORIO = "/home/gustavo/PycharmProjects/upandoimage/flask-salvar-arquivos/outpt"
 
 api = Flask(__name__)
 client = MongoClient("mongodb://localhost/27017")
